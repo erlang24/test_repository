@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>chcnav_driver</name>
+  <version>0.0.1</version>
+  <description>chcnav_driver package for ROS 2.</description>
+
+  <maintainer email="lyl@todo.todo">lyl</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>serial</depend>
+  <depend>raw_sensor_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
